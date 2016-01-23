@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+
+}
+
+
+body{
+  background-color: #7887AB;
+}
+
+p {
+	color:#000000;
+
+
+	font-size:75px;
+}
+
+.textF{
+  width:400px;
+  display:block;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayText{
+
+  padding: 50px 50px 50px 50px;
+}
