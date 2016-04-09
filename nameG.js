@@ -2,21 +2,30 @@ angular.module('nameApp',[])
   .controller('nameGenController',function(){
     var NameGen = this;
     NameGen.returnName='';
-    NameGen.lines = [
-      '!#!#!: The Return of %^%&',
+    NameGen.lines = [ //this will eventually be stored as a txt file
+      '!#!#!: The Return of the %^%&',
       '!#!#!: The Revenge of the %^%&',
       '!#!#!: %^%& Awakens',
       '!#!#!: Attack of the %^%&',
-      '!#!#! Into %^%&',
+      '!#!#! Into the %^%&',
       '!#!#! Beyond',
-      '!#!#!: The Wrath of %^%&',
-      '!#!#!: The Search for %^%&',
+      '!#!#!: The Wrath of the %^%&',
+      '!#!#!: The Search for the %^%&',
       '!#!#!: The Underdiscovered %^%&',
-      '!#!#!: %^%& Strikes Back',
-      '!#!#!: Age of %^%&',
-      '!#!#!: The Rise of the Planet of %^%&',
+      '!#!#!: The %^%& Strikes Back',
+      '!#!#!: Age of the %^%&',
+      '!#!#!: The Rise of the Planet of the %^%&',
       '!#!#!: Reloaded',
-      '!#!#!: Back to %^%&'
+      '!#!#!: Back to %^%&',
+      '!#!#!: A %^%& Odyssey',
+      '!#!#!: Escape from the Planet of the %^%&',
+      '!#!#!: The Final %^%&',
+      '!#!#!: %^%& Assemble',
+      '!#!#!: Brave %^%&',
+      '!#!#!: %^%& of Tomorrow',
+      '!#!#!: %^%& Ascending',
+      '!#!#!: The %^%& Rises',
+      
       ];
     NameGen.generated = [];
     NameGen.clear = function()
